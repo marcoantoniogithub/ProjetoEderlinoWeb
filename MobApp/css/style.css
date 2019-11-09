@@ -55,13 +55,13 @@ h1 {
 h2 {
     font-size: 45px;
     font-weight: 300;
-    color: #633991;
+    color: rgb(3, 57, 173)
     letter-spacing: -1px;
     margin-bottom: 1rem;
 }
 
 h3 {
-    color: #633991;
+    color: rgb(3, 57, 173);
     font-size: 33px;
     font-weight: 500;
 }
@@ -69,7 +69,7 @@ h3 {
 h4 {
     font-size: 20px;
     font-weight: 500;
-    color: #633991;
+    color: rgb(3, 57, 173);
 }
 
 h5 {
@@ -186,10 +186,10 @@ p.lead {
 
 .nav-menu.is-scrolling,
 .nav-menu.menu-is-open {
-    background-color: rgb(92, 158, 81);
-    background: -moz-linear-gradient(135deg, rgb(92, 158, 81) 0%, rgb(141, 245, 66) 100%);
-    background: -webkit-linear-gradient(135deg, rgb(92, 158, 81) 0%, rgb(141, 245, 66) 100%);
-    background: linear-gradient(135deg, rgb(92, 158, 81) 0%, rgb(141, 245, 66) 100%);
+    background-color: rgb(3, 57, 173);
+    background: -moz-linear-gradient(135deg, rgb(3, 57, 173) 0%, rgb(0, 26, 82) 100%);
+    background: -webkit-linear-gradient(135deg, rgb(3, 57, 173) 0%, rgb(0, 26, 82) 100%);
+    background: linear-gradient(135deg, rgb(3, 57, 173) 0%, rgb(0, 26, 82) 100%);
     -webkit-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
@@ -211,7 +211,7 @@ p.lead {
     }
     .navbar-nav>.nav-item>.nav-link.active:after {
         content: "";
-        border-bottom: 2px solid #cd99d4;
+        border-bottom: 2px solid rgba(36, 7, 31, 0.11);
         left: 1rem;
         right: 1rem;
         bottom: 5px;
@@ -240,10 +240,10 @@ header {
 }
 
 .bg-gradient {
-    background-image: -moz-linear-gradient( 135deg, rgba(92, 158, 81, 0.8) 0%, rgba(141, 245, 66, 0.8) 100%);
-    background-image: -webkit-linear-gradient( 135deg, rgba(92, 158, 81, 0.8) 0%, rgba(141, 245, 66, 0.8) 100%);
-    background-image: -ms-linear-gradient( 135deg, rgba(92, 158, 81, 0.8) 0%, rgba(141, 245, 66, 0.8) 100%);
-    background-image: linear-gradient( 135deg, rgba(92, 158, 81, 0.8) 0%, rgba(141, 245, 66, 0.8) 100%);
+    background-image: -moz-linear-gradient( 135deg, rgba(7,26,66, 1.0) 0%, rgba(7,26,66, 1.0) 100%);
+    background-image: -webkit-linear-gradient( 135deg, rgba(7,26,66, 1.0) 0%, rgba(7,26,66, 1.0) 100%);
+    background-image: -ms-linear-gradient( 135deg, rgba(7,26,66, 1.0) 0%, rgba(7,26,66, 1.0) 100%);
+    background-image: linear-gradient( 135deg, rgba(7,26,66, 1.0) 0%, rgba(7,26,66, 1.0) 100%);
 }
 
 .tagline {
@@ -260,9 +260,14 @@ header {
     overflow: hidden;
 }
 
+
+
 @media (max-width:1200px) {
     .img-holder {
         padding-bottom: 50%;
+    }
+    .img-holder img {
+        width: 50%;
     }
 }
 
@@ -272,6 +277,9 @@ header {
     }
     .img-holder {
         padding-bottom: 100%;
+    }
+    .img-holder img {
+        width: 80%;
     }
 }
 
@@ -425,7 +433,7 @@ header {
 .nav-tabs .nav-link:focus,
 .nav-tabs .nav-link:hover {
     padding: 1rem 1rem;
-    border-color: #faf6fb #faf6fb #FFF;
+    border-color: rgb();
     font-size: 19px;
     color: #b5a4c8;
     background: #f5eff7;
